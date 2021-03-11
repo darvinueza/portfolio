@@ -1,0 +1,16 @@
+{
+  "name": "graphql-server-elections",
+  "version": "1.0",
+  "description": "Servidor para las Elecciones Baha'is",
+  "main": "index.js",
+  "author": "Dario Vinueza",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.21.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.19"
+  }
+}
